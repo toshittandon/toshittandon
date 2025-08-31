@@ -1,212 +1,99 @@
-# Portfolio Website – Toshit Tandon
+<div align="center">
 
-A modern, responsive, and SEO-optimized **portfolio website** built with **React 18**, showcasing my journey as a Full-Stack Developer. Features clean design, dark/light theme toggle, and interactive animations to highlight my skills in JavaScript, React, Python, Node.js, and Django.
+  # Toshit Tandon
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=4000&pause=1000&color=00FFAA&center=true&vCenter=true&repeat=true&width=600&lines=Full-Stack+Developer;React,+Node.js,+Django,+Python;Appwrite+Backend;JavaScript+Programming" />
+  </a>
+</div>
 
----
+## About Me
+Hi, I'm Toshit Tandon.
 
-## 👨‍💻 About Me
+I'm a full-stack developer passionate about **Web Development, AI, and Blockchain**.  
+I build scalable applications using **React, Node.js, Django, Python, and Appwrite**, with modern tools and responsive UI.  
 
-**Toshit Tandon** | Full-Stack Developer  
-BSc. Data Science & AI Student passionate about Web Development, Artificial Intelligence, and Blockchain.
+Feel free to explore my repositories, and don’t hesitate to connect or collaborate!
 
-- 🔗 **GitHub**: [github.com/toshittandon](https://github.com/toshittandon)
-- 💼 **LinkedIn**: [linkedin.com/in/toshit-tandon](https://www.linkedin.com/in/toshit-tandon)
-- 📧 **Email**: toshittandon1@gmail.com
+<br clear="both">
 
----
+<div align="center">
 
-## ✨ Features
+## Tech Stack & Tools
 
-- **Fully Responsive** – Optimized for mobile, tablet, and desktop
-- **Dark/Light Mode** – Theme toggle with smooth transitions and localStorage persistence
-- **SEO Optimized** – React Helmet for meta tags, Open Graph, and Twitter Cards
-- **Interactive UI** – Smooth animations, hover effects, and scroll-triggered animations
-- **Accessibility** – Semantic HTML, ARIA labels, and keyboard navigation
-- **Modern Tech Stack**:
-  - React 18 with Hooks
-  - CSS3 (Custom Properties, Grid & Flexbox)
-  - JavaScript (ES6+)
-  - React Icons for consistent iconography
-  - React Helmet Async for SEO
+<table>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="65" height="65" alt="React" />
+      <br>React
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="65" height="65" alt="Node.js" />
+      <br>Node.js
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="65" height="65" alt="Express.js" />
+      <br>Express
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="65" height="65" alt="Python" />
+      <br>Python
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg" width="65" height="65" alt="Django" />
+      <br>Django
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="65" height="65" alt="JavaScript" />
+      <br>JavaScript
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="65" height="65" alt="MySQL" />
+      <br>MySQL
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="65" height="65" alt="Git" />
+      <br>Git
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="65" height="65" alt="VSCode" />
+      <br>VS Code
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/appwrite/appwrite-original.svg" width="65" height="65" alt="Appwrite" />
+      <br>Appwrite
+    </td>
+  </tr>
+</table>
 
----
+</div>
 
-## 🚀 Live Demo
+## Skills & Frameworks
 
-**Portfolio**: [toshittandon.github.io/toshittandon](https://toshittandon.github.io/toshittandon/)
+<p align="center">
+  <a href="#">
+    <img src="https://skillicons.dev/icons?i=react,nodejs,express,django,python,mysql,appwrite,javascript,git,vscode" />
+  </a>
+</p>
 
----
+## GitHub Stats
 
-## 🛠️ Tech Stack
+<p align="center">
+  <a href="https://github.com/toshittandon">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=toshittandon&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=toshittandon&layout=compact&langs_count=7&theme=tokyonight"/>
+  </a>
+</p>
 
-### Frontend
-- **JavaScript (ES6+)** – Modern JavaScript features
-- **React 18** – Component-based UI library
-- **HTML5** – Semantic markup
-- **CSS3** – Custom properties, animations, responsive design
-- **React Icons** – Scalable vector icons
+## Connect With Me
 
-### Backend & Database (Other Projects)
-- **Node.js** – Server-side JavaScript
-- **Django** – Python web framework
-- **Appwrite** – Backend-as-a-Service
-
-### Tools & Deployment
-- **Git & GitHub** – Version control
-- **VS Code** – Development environment
-- **NPM/Yarn** – Package management
-- **GitHub Pages** – Static site hosting
-
----
-
-## 📁 Project Structure
-
-```
-src/
-├── components/
-│   ├── Navigation.js      # Navigation bar with theme toggle
-│   ├── Hero.js           # Hero section with intro and CTA
-│   ├── About.js          # About section with skills grid
-│   ├── Projects.js       # Featured projects showcase
-│   └── Contact.js        # Contact form and social links
-├── App.js                # Main app component with routing
-├── index.js              # React DOM entry point
-└── index.css             # Global styles and CSS variables
-```
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-- **Node.js** v16+ 
-- **npm** or **yarn**
-
-### Installation & Development
-
-```bash
-# Clone the repository
-git clone https://github.com/toshittandon/toshittandon.git
-cd toshittandon
-
-# Install dependencies
-npm install
-
-# Start development server
-npm start
-# Open http://localhost:3000 in your browser
-
-# Build for production
-npm run build
-
-# Deploy to GitHub Pages (if configured)
-npm run deploy
-```
-
----
-
-## 🎨 Featured Projects
-
-### 1. **EssencePura – E-commerce Website**
-- **Tech Stack**: React, Node.js, Stripe, Appwrite
-- **Description**: Minimalistic e-commerce platform for organic cosmetics with cart, checkout, and payment integration
-- **GitHub**: [github.com/toshittandon/essencepura](https://github.com/toshittandon/essencepura)
-
-### 2. **Calculator App**
-- **Tech Stack**: React, JavaScript, CSS3
-- **Description**: Efficient calculator with clean UI and keyboard support
-- **Features**: Mathematical operations, responsive design, state management
-
-### 3. **Portfolio Website** (This Project)
-- **Tech Stack**: React, CSS3, JavaScript, SEO
-- **Description**: Personal portfolio showcasing skills and projects
-- **Features**: Dark/light mode, responsive design, SEO optimization
-
----
-
-## 🎯 Skills & Technologies
-
-**Frontend Development**
-- JavaScript (ES6+), React, HTML5, CSS3
-
-**Backend Development**  
-- Node.js, Django, REST APIs
-
-**Database & Tools**
-- Appwrite, Git, GitHub, VS Code
-
----
-
-## 📱 Responsive Design
-
-The portfolio is fully responsive and tested across:
-- **Desktop** (1200px+)
-- **Tablet** (768px - 1199px)  
-- **Mobile** (320px - 767px)
-
----
-
-## 🔧 Customization
-
-### Theme Colors
-Update CSS custom properties in `src/index.css`:
-
-```css
-:root {
-  --accent: #3b82f6;        /* Primary accent color */
-  --accent-hover: #2563eb;  /* Hover state */
-  --bg-primary: #ffffff;    /* Background */
-  --text-primary: #1f2937;  /* Text color */
-}
-```
-
-### Adding New Projects
-Update the `projects` array in `src/components/Projects.js`:
-
-```javascript
-const projects = [
-  {
-    id: 4,
-    title: 'Your New Project',
-    description: 'Project description...',
-    technologies: ['React', 'Node.js'],
-    githubUrl: 'https://github.com/username/repo',
-    liveUrl: 'https://your-demo.com'
-  }
-];
-```
-
----
-
-## 📈 SEO Features
-
-- **Meta Tags**: Dynamic titles and descriptions
-- **Open Graph**: Social media sharing optimization
-- **Twitter Cards**: Enhanced Twitter sharing
-- **Sitemap**: XML sitemap for search engines
-- **Robots.txt**: Search engine crawling instructions
-
----
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## 📞 Contact & Connect
-
-- **Portfolio**: [toshittandon.github.io/toshittandon](https://toshittandon.github.io/toshittandon/)
-- **GitHub**: [@toshittandon](https://github.com/toshittandon)
-- **LinkedIn**: [toshit-tandon](https://www.linkedin.com/in/toshit-tandon)
-- **Email**: toshittandon1@gmail.com
+<div align="center">
+  <a href="https://www.linkedin.com/in/toshit-tandon" style="text-decoration: none;">
+    <img src="https://custom-icon-badges.demolab.com/badge/LINKEDIN-0A66C2?style=for-the-badge&logoColor=white" height="40" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://x.com/toshit_tandon" style="text-decoration: none;">
+    <img src="https://custom-icon-badges.demolab.com/badge/X.COM-000000?style=for-the-badge&logoColor=white" height="40" />
+  </a>
+</div>

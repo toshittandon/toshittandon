@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { FaEnvelope, FaMapMarkerAlt, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaMapMarkerAlt, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import './Contact.css';
 
 const Contact = () => {
@@ -49,8 +49,8 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Toshit Tandon | LinkedIn, GitHub, Email</title>
-        <meta name="description" content="Get in touch with Toshit Tandon for collaboration opportunities, project discussions, or networking. Connect via LinkedIn, GitHub, or email." />
+        <title>Contact Toshit Tandon | LinkedIn, GitHub, X, Email</title>
+        <meta name="description" content="Get in touch with Toshit Tandon for collaboration opportunities, project discussions, or networking. Connect via LinkedIn, GitHub, X (Twitter), or email." />
       </Helmet>
       
       <section className="contact section" id="contact">
@@ -108,6 +108,16 @@ const Contact = () => {
                     >
                       <FaLinkedin size={24} />
                       <span>LinkedIn</span>
+                    </a>
+                    <a 
+                      href="https://x.com/toshittandon" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="social-link twitter"
+                      aria-label="X (Twitter) Profile"
+                    >
+                      <FaTwitter size={24} />
+                      <span>X (Twitter)</span>
                     </a>
                   </div>
                 </div>

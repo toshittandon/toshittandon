@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { Helmet } from 'react-helmet-async';
-import { FaGithub, FaLinkedin, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaExternalLinkAlt, FaTwitter } from 'react-icons/fa';
 import './Hero.css';
 
 const Hero = () => {
@@ -67,6 +67,15 @@ const Hero = () => {
                 aria-label="LinkedIn Profile"
               >
                 <FaLinkedin size={24} />
+              </a>
+              <a 
+                href="https://x.com/toshittandon" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="social-link"
+                aria-label="X (Twitter) Profile"
+              >
+                <FaTwitter size={24} />
               </a>
             </div>
 

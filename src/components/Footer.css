@@ -65,9 +65,14 @@
   color: #fff;
 }
 
-.footer-social-link:last-child:hover {
+.footer-social-link:nth-child(2):hover {
   border-color: #0077b5;
   color: #0077b5;
+}
+
+.footer-social-link:last-child:hover {
+  border-color: #1da1f2;
+  color: #1da1f2;
 }
 
 .footer-bottom {

@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/toshittandon/static/css/main.25f86a5e.css",
-    "main.js": "/toshittandon/static/js/main.32f66e24.js",
+    "main.css": "/toshittandon/static/css/main.e35d1c89.css",
+    "main.js": "/toshittandon/static/js/main.b4503e09.js",
     "index.html": "/toshittandon/index.html",
-    "main.25f86a5e.css.map": "/toshittandon/static/css/main.25f86a5e.css.map",
-    "main.32f66e24.js.map": "/toshittandon/static/js/main.32f66e24.js.map"
+    "main.e35d1c89.css.map": "/toshittandon/static/css/main.e35d1c89.css.map",
+    "main.b4503e09.js.map": "/toshittandon/static/js/main.b4503e09.js.map"
   },
   "entrypoints": [
-    "static/css/main.25f86a5e.css",
-    "static/js/main.32f66e24.js"
+    "static/css/main.e35d1c89.css",
+    "static/js/main.b4503e09.js"
   ]
 }

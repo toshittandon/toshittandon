@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaHeart } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter, FaHeart } from 'react-icons/fa';
 import './Footer.css';
 
 const Footer = () => {
@@ -30,6 +30,15 @@ const Footer = () => {
               aria-label="LinkedIn Profile"
             >
               <FaLinkedin size={24} />
+            </a>
+            <a 
+              href="https://x.com/toshittandon" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="footer-social-link"
+              aria-label="X (Twitter) Profile"
+            >
+              <FaTwitter size={24} />
             </a>
           </div>
         </div>

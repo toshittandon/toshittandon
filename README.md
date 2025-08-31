@@ -31,8 +31,8 @@ Feel free to explore my repositories, and don’t hesitate to connect or collabo
       <br>Node.js
     </td>
     <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="65" height="65" alt="Express.js" />
-      <br>Express
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="65" height="65" alt="HTML5" />
+      <br>HTML5
     </td>
     <td align="center" width="96">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="65" height="65" alt="Python" />
@@ -49,8 +49,8 @@ Feel free to explore my repositories, and don’t hesitate to connect or collabo
       <br>JavaScript
     </td>
     <td align="center" width="96">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="65" height="65" alt="MySQL" />
-      <br>MySQL
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="65" height="65" alt="CSS3" />
+      <br>CSS3
     </td>
     <td align="center" width="96">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="65" height="65" alt="Git" />
@@ -73,7 +73,7 @@ Feel free to explore my repositories, and don’t hesitate to connect or collabo
 
 <p align="center">
   <a href="#">
-    <img src="https://skillicons.dev/icons?i=react,nodejs,express,django,python,mysql,appwrite,javascript,git,vscode" />
+    <img src="https://skillicons.dev/icons?i=react,nodejs,django,python,html,css,appwrite,javascript,git,vscode" />
   </a>
 </p>
 
@@ -93,7 +93,11 @@ Feel free to explore my repositories, and don’t hesitate to connect or collabo
     <img src="https://custom-icon-badges.demolab.com/badge/LINKEDIN-0A66C2?style=for-the-badge&logoColor=white" height="40" />
   </a>
   &nbsp;&nbsp;&nbsp;
-  <a href="https://x.com/toshit_tandon" style="text-decoration: none;">
+  <a href="https://x.com/toshittandon" style="text-decoration: none;">
     <img src="https://custom-icon-badges.demolab.com/badge/X.COM-000000?style=for-the-badge&logoColor=white" height="40" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="mailto:toshittandon1@gmail.com" style="text-decoration: none;">
+    <img src="https://custom-icon-badges.demolab.com/badge/EMAIL-EA4335?style=for-the-badge&logoColor=white" height="40" />
   </a>
 </div>

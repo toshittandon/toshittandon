@@ -97,7 +97,6 @@ const Contact = () => {
                       aria-label="GitHub Profile"
                     >
                       <FaGithub size={24} />
-                      <span>GitHub</span>
                     </a>
                     <a 
                       href="https://www.linkedin.com/in/toshit-tandon" 
@@ -107,7 +106,6 @@ const Contact = () => {
                       aria-label="LinkedIn Profile"
                     >
                       <FaLinkedin size={24} />
-                      <span>LinkedIn</span>
                     </a>
                     <a 
                       href="https://x.com/toshittandon" 
@@ -117,7 +115,6 @@ const Contact = () => {
                       aria-label="X (Twitter) Profile"
                     >
                       <FaTwitter size={24} />
-                      <span>X (Twitter)</span>
                     </a>
                   </div>
                 </div>

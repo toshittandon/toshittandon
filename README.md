@@ -11,7 +11,7 @@ BSc. Data Science & AI Student passionate about Web Development, Artificial Inte
 
 - 🔗 **GitHub**: [github.com/toshittandon](https://github.com/toshittandon)
 - 💼 **LinkedIn**: [linkedin.com/in/toshit-tandon](https://www.linkedin.com/in/toshit-tandon)
-- 📧 **Email**: toshittandon.dev@gmail.com
+- 📧 **Email**: toshittandon1@gmail.com
 
 ---
 
@@ -47,9 +47,8 @@ BSc. Data Science & AI Student passionate about Web Development, Artificial Inte
 - **React Icons** – Scalable vector icons
 
 ### Backend & Database (Other Projects)
-- **Node.js & Express.js** – Server-side JavaScript
+- **Node.js** – Server-side JavaScript
 - **Django** – Python web framework
-- **MongoDB & PostgreSQL** – Database management
 - **Appwrite** – Backend-as-a-Service
 
 ### Tools & Deployment
@@ -128,13 +127,13 @@ npm run deploy
 ## 🎯 Skills & Technologies
 
 **Frontend Development**
-- JavaScript (ES6+), React, HTML5, CSS3, TailwindCSS
+- JavaScript (ES6+), React, HTML5, CSS3
 
 **Backend Development**  
-- Node.js, Express.js, Django, REST APIs
+- Node.js, Django, REST APIs
 
 **Database & Tools**
-- MongoDB, PostgreSQL, Appwrite, Git, GitHub, VS Code
+- Appwrite, Git, GitHub, VS Code
 
 ---
 

@@ -1,4 +1,12 @@
 import React, { useEffect, useRef } from 'react';
+import { Helmet } from 'react-helmet-async';
+import { 
+  FaJs, FaReact, FaHtml5, FaCss3Alt, FaNodeJs, 
+  FaGitAlt, FaGithub, FaNpm, FaDatabase 
+} from 'react-icons/fa';
+import { 
+  SiDjango, SiAppwrite, SiVisualstudiocode 
+} from 'react-icons/si';
 import './About.css';
 
 const About = () => {
@@ -24,51 +32,80 @@ const About = () => {
   }, []);
 
   const skills = {
-    Languages: ['Python', 'JavaScript'],
-    Frontend: ['React', 'HTML', 'CSS'],
-    Backend: ['Django', 'Node.js', 'Express'],
-    Database: ['PostgreSQL', 'MongoDB'],
-    Tools: ['Git', 'Docker', 'AWS']
+    Frontend: [
+      { name: 'JavaScript (ES6+)', icon: <FaJs /> },
+      { name: 'React', icon: <FaReact /> },
+      { name: 'HTML5', icon: <FaHtml5 /> },
+      { name: 'CSS3', icon: <FaCss3Alt /> }
+    ],
+    Backend: [
+      { name: 'Node.js', icon: <FaNodeJs /> },
+      { name: 'Django', icon: <SiDjango /> },
+      { name: 'REST APIs', icon: <FaDatabase /> }
+    ],
+    'Database & Tools': [
+      { name: 'Appwrite', icon: <SiAppwrite /> }
+    ],
+    'Other Tools': [
+      { name: 'Git', icon: <FaGitAlt /> },
+      { name: 'GitHub', icon: <FaGithub /> },
+      { name: 'VS Code', icon: <SiVisualstudiocode /> },
+      { name: 'NPM/Yarn', icon: <FaNpm /> }
+    ]
   };
 
   return (
-    <section className="about section" id="about">
-      <div className="container">
-        <div className="about-content fade-in" ref={aboutRef}>
-          <h2 className="about-title">About Me</h2>
-          
-          <div className="about-grid">
-            <div className="about-text">
-              <p>
-                I'm a full-stack developer with a passion for creating intuitive and performant web applications. 
-                My journey into tech started with a fascination for how things work, and it has evolved into a 
-                career where I can solve real-world problems through code.
-              </p>
-              <p>
-                I thrive in collaborative environments and am always eager to learn new technologies. 
-                Whether it's building responsive frontends or architecting scalable backends, 
-                I approach each project with attention to detail and a focus on user experience.
-              </p>
+    <>
+      <Helmet>
+        <title>About Toshit Tandon – Full-Stack Developer & AI Enthusiast</title>
+        <meta name="description" content="Learn about Toshit Tandon, a BSc Data Science & AI student passionate about Web Development, Artificial Intelligence, and Blockchain. Experienced in JavaScript, React, Node.js, Python, and Django." />
+      </Helmet>
+      
+      <section className="about section" id="about">
+        <div className="container">
+          <div className="about-content fade-in" ref={aboutRef}>
+            <h2 className="about-title">About Me</h2>
+            
+            <div className="about-grid">
+              <div className="about-text">
+                <p>
+                  I am a BSc. Data Science & AI student with a passion for building scalable, user-friendly applications. 
+                  My interests lie at the intersection of Web Development, Artificial Intelligence, and Blockchain, 
+                  where I continuously explore ways to combine these domains.
+                </p>
+                <p>
+                  With hands-on experience in JavaScript, React, Node.js, Python, and Django, I am working on projects 
+                  that range from simple calculators to full-fledged e-commerce platforms with Stripe and Appwrite integrations. 
+                  My goal is to become a versatile full-stack developer and contribute to impactful, innovative projects.
+                </p>
+              </div>
             </div>
             
-            <div className="skills-grid">
-              {Object.entries(skills).map(([category, skillList]) => (
-                <div key={category} className="skill-category">
-                  <h3 className="skill-category-title">{category}</h3>
-                  <div className="skill-tags">
-                    {skillList.map((skill) => (
-                      <span key={skill} className="skill-tag">
-                        {skill}
-                      </span>
-                    ))}
+            {/* Skills Section */}
+            <div className="skills-section">
+              <h3 className="skills-title">Technical Skills</h3>
+              <div className="skills-grid">
+                {Object.entries(skills).map(([category, skillList]) => (
+                  <div key={category} className="skill-category">
+                    <h4 className="skill-category-title">{category}</h4>
+                    <div className="skill-items">
+                      {skillList.map((skill) => (
+                        <div key={skill.name} className="skill-item">
+                          <div className="skill-icon">
+                            {skill.icon}
+                          </div>
+                          <span className="skill-name">{skill.name}</span>
+                        </div>
+                      ))}
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 

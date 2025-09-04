@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import emailjs from 'emailjs-com';
 import { Helmet } from 'react-helmet-async';
 import { FaEnvelope, FaMapMarkerAlt, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import './Contact.css';
@@ -39,11 +40,21 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-    // Reset form
-    setFormData({ name: '', email: '', message: '' });
-    alert('Thank you for your message! I\'ll get back to you soon.');
+    // Replace these with your EmailJS service, template, and user IDs
+    const SERVICE_ID = 'service_y0di75b';
+    const TEMPLATE_ID = 'template_dox1xf4';
+    const USER_ID = 'YDzjA3u1uo0Oz6Kwk';
+
+    emailjs.send(SERVICE_ID, TEMPLATE_ID, formData, USER_ID)
+      .then(
+        (result) => {
+          alert('Thank you for your message! I\'ll get back to you soon.');
+          setFormData({ name: '', email: '', message: '' });
+        },
+        (error) => {
+          alert('Sorry, there was an error sending your message. Please try again later.');
+        }
+      );
   };
 
   return (

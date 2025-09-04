@@ -45,7 +45,7 @@ const Footer = () => {
         
         <div className="footer-bottom">
           <p className="footer-copyright">
-            © {new Date().getFullYear()} Toshit Tandon. Built with <FaHeart className="heart-icon" /> using React.
+            © {new Date().getFullYear()} Toshit Tandon.
           </p>
         </div>
       </div>

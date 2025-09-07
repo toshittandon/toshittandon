@@ -40,12 +40,12 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Replace these with your EmailJS service, template, and user IDs
-    const SERVICE_ID = 'service_y0di75b';
-    const TEMPLATE_ID = 'template_dox1xf4';
-    const USER_ID = 'YDzjA3u1uo0Oz6Kwk';
+  // Use environment variables for EmailJS keys
+  const SERVICE_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+  const TEMPLATE_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+  const USER_ID = process.env.REACT_APP_EMAILJS_USER_ID;
 
-    emailjs.send(SERVICE_ID, TEMPLATE_ID, formData, USER_ID)
+  emailjs.send(SERVICE_ID, TEMPLATE_ID, formData, USER_ID)
       .then(
         (result) => {
           alert('Thank you for your message! I\'ll get back to you soon.');

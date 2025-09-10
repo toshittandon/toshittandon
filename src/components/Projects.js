@@ -32,17 +32,17 @@ const Projects = () => {
       description: 'A minimalistic e-commerce platform for organic cosmetics. Features cart, checkout, Stripe payments, and user/product management via Appwrite. Built with modern React patterns and responsive design.',
       technologies: ['React', 'Node.js', 'Stripe', 'Appwrite', 'CSS3'],
       githubUrl: 'https://github.com/toshittandon/essencepura',
-      liveUrl: null, // Add if deployed
-      image: 'https://via.placeholder.com/400x250/3b82f6/ffffff?text=EssencePura+E-commerce'
+      liveUrl: 'https://essencepura.com', // Add if deployed
+      image: '/ecomweb.jpg'
     },
     {
       id: 2,
-      title: 'Calculator App',
-      description: 'A simple but efficient calculator app built to strengthen understanding of JavaScript modules and React state management. Features clean UI, keyboard support, and mathematical operations.',
+      title: 'Job Application Tracker',
+      description: 'A simple but efficient job application tracker built to help users manage their job applications effectively. Features include application status tracking, company information storage, and deadline reminders.',
       technologies: ['React', 'JavaScript', 'CSS3', 'ES6+'],
-      githubUrl: 'https://github.com/toshittandon/calculator-app', // Update with actual repo if available
-      liveUrl: null, // Add if deployed
-      image: 'https://via.placeholder.com/400x250/10b981/ffffff?text=Calculator+App'
+      githubUrl: 'https://github.com/toshittandon/job-application-tracker', // Update with actual repo if available
+      liveUrl: 'https://job-application-tracker-opal-nine.vercel.app', // Add if deployed
+      image: '/jobapp.jpg'
     },
     {
       id: 3,
@@ -50,8 +50,17 @@ const Projects = () => {
       description: 'This portfolio itself, designed to showcase my skills, projects, and journey as a developer. Fully responsive with dark/light mode toggle and SEO optimization. Built with modern React and clean CSS.',
       technologies: ['React', 'CSS3', 'JavaScript', 'SEO', 'Responsive Design'],
       githubUrl: 'https://github.com/toshittandon/toshittandon',
-      liveUrl: 'https://toshittandon.github.io/toshittandon/',
-      image: 'https://via.placeholder.com/400x250/8b5cf6/ffffff?text=Portfolio+Website'
+      liveUrl: 'https://www.toshittandon.me',
+      image: '/portfolio.jpg' // Using favicon as placeholder until portfolio image is added
+    },
+    {
+      id: 4,
+      title: 'PrepXL - Interview Practice Platform',
+      description: 'A platform designed to help users prepare for interviews through practice questions, mock interviews, and performance analytics. Built with a focus on user experience and effective learning.',
+      technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'CSS3'],
+      githubUrl: 'https://github.com/toshittandon/prepxl',
+      liveUrl: null,
+      image: '/prepxl.jpg'
     }
   ];
 
